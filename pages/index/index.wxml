@@ -1,0 +1,21 @@
+<scroll-view id="scroller" style="height: 100vh;" scroll-y throttle="{{false}}" enable-back-to-top refresher-background="#3C43BA" data-status-bar-height="{{statusBarHeight}}" hidden="{{ !canIUseOpenData }}">
+  <view class="nav" style="padding-top: {{statusBarHeight}}px; height: {{ navBarHeight }}px;">
+    <view class="title {{isIpad ? 'ipad' : ''}}" style="line-height: {{ navBarHeight }}px;">小助手</view>
+  </view>
+  <view class="user" style="padding-top: {{ statusBarHeight + navBarHeight }}px;">
+    <view class="user_avatar" style="top: {{statusBarHeight + (navBarHeight - 30)/2 - 24}}px" bindtap="bindViewTap">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class="user_wrapper">
+      <view class="user_container">
+        <open-data class="user_name" type="userNickName"></open-data>
+      </view>
+    </view>
+  </view>
+  <view class="cell-list">
+    <view class="cell" data-url="/pages/map/map" bindtap="gotoPage">获取当前位置</view>
+    <view class="cell" data-url="/pages/weather/weather" bindtap="gotoPage">获取当天天气</view>
+    <view class="cell" data-url="/pages/subway/subway" bindtap="gotoPage">获取当前地铁图</view>
+    <view class="cell" data-url="/pages/logs/logs" bindtap="gotoPage">查看日志</view>
+  </view>
+</scroll-view>
