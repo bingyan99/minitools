@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/map/map",
     "pages/weather/weather",
-    "pages/subway/subway"
+    "pages/subway/subway",
+    "pages/decision/decision"
   ],
   "window": {
     "backgroundTextStyle": "light",

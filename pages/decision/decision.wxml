@@ -1,0 +1,7 @@
+<!--pages/decision/decision.wxml-->
+<scroll-view id="scroller" style="height: 90vh;" scroll-y throttle="{{ false }}" enable-back-to-top refresher-background="#3C43BA">
+  <view class="list-item" wx:for="{{ list }}" wx:key="key" wx:for-item="data">
+    {{ data }}
+  </view>
+</scroll-view>
+<button bindtap="goDecision">做个决定吧</button>
