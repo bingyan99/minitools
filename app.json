@@ -5,7 +5,8 @@
     "pages/map/map",
     "pages/weather/weather",
     "pages/subway/subway",
-    "pages/decision/decision"
+    "pages/decision/decision",
+    "pages/webview/webview"
   ],
   "window": {
     "backgroundTextStyle": "light",

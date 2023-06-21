@@ -16,7 +16,7 @@
     <view class="cell" data-url="/pages/decision/decision" bindtap="gotoPage">做个决定吧</view>
     <view class="cell" data-url="/pages/map/map" bindtap="gotoPage">获取当前位置</view>
     <view class="cell" data-url="/pages/weather/weather" bindtap="gotoPage">获取当天天气</view>
-    <view class="cell" data-url="/pages/subway/subway" bindtap="gotoPage">获取当前地铁图</view>
+    <view class="cell" data-url="/pages/subway/subway" bindtap="gotoPage">获取地铁图</view>
     <view class="cell" data-url="/pages/logs/logs" bindtap="gotoPage">查看日志</view>
   </view>
 </scroll-view>
