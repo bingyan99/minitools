@@ -1,7 +1,4 @@
 // pages/subway/subway.js
-var amapFile = require('../../utils/amap-wx.js');
-const { Config } = require('../../utils/config.js');
-
 Page({
   data: {
     cityList: [],
